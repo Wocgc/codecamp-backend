@@ -28,5 +28,5 @@ const createdAt = "2022-01-17";
 // };
 
 // shorthand property names 적용
-const result = getWelcomeTemplate({ name, age, school, createdAt });
-console.log(result);
+getWelcomeTemplate({ name, age, school, createdAt });
+// getWelcomeTemplate({{ name:"규철", age:23, school:"인덕대학교", createdAt:"2022-01-17" }})

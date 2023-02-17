@@ -7,7 +7,7 @@ export function checkValidationPhone(myphone) {
   }
 }
 
-export function getToken(count) {
+export function getToken() {
   const mycount = 6;
   if (count === undefined) {
     console.log("에러 발생!!! 갯수를 제대로 입력해 주세요!!!");
